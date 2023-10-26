@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#coming-sooon {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 49.9%, 100% {
+        opacity: 0;
+    }
+    50%, 99.9% {
+        opacity: 1;
+    }
+}
